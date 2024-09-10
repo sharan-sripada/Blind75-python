@@ -16,7 +16,6 @@ class Solution:
             while b!=0:
                 a,b=b,a%b
             return a
-        
         prev,curr=head,head.next
         while curr:
             temp = ListNode(gcd(prev.val,curr.val))
