@@ -7,5 +7,10 @@
 # @lc code=start
 class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
+        ans = []
+        
+        
+        
+        return "".join(ans)
 # @lc code=end
 
